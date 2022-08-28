@@ -1,1 +1,1 @@
-Page about the Dutch symphonic metal band Epica for The Odin Project's "Landing Page" project.
+Page about the Dutch symphonic metal band Epica for The Odin Project's "Landing Page" project. I didn't follow the proposed layout exactly; I tweaked it here and there so it could better fit this type of content.
