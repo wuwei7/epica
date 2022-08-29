@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-image: url(images/maze.png);
+  display: flex;
+  flex: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  height: 80px;
+  width: 50%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  font-size: 22px;
+}
+
+a {
+  color: #B59D77;
+  text-decoration: none;
+}
+
+.band-container {
+  background-image: url(images/band-1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+}
+
+.band-container h1 {
+  text-align: center;
+}
+
+/* By wrapping both the <h1> and the <p> in another container, the display: flex declaration here turned that container and the <img> into flex items, allowing them to sit along the main axis. */
+.content {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 960px;
+  background-color: #000;
+  color: #a8aaac;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.content-left p {
+  margin-top: 15px;
+}
+
+.content img {
+  height: 250px;
+  margin-left: 30px;
+}
+
+/* .community {
+  color: #a8aaac;
+}
+
+aside {
+  color: #a8aaac;
+} */
