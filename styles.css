@@ -6,6 +6,8 @@
 
 nav {
   background-image: url(images/maze.png);
+  background-attachment: fixed;
+  background-size: cover;
   display: flex;
   flex: auto;
   justify-content: space-between;
@@ -41,7 +43,7 @@ a {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 700px;
+  height: 900px;
 }
 
 .band-container h1 {
@@ -85,10 +87,6 @@ iframe {
 }
 
 aside {
-  /* background-image: url(images/band-4.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover; */
   background-color: #000;
   height: 400px;
   display: flex;
@@ -116,7 +114,6 @@ aside p:last-of-type {
   color: #a8aaac;
   display: flex;
   justify-content: center;
-  /* height: 150px; */
 }
 
 .community-content {
