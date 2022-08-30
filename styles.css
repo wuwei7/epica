@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+/* This and padding-top in .band-container make header fixed and fixes overflowing problem */
+header {
+  position: fixed;
+  width: 100%;
+}
+
 nav {
   background-image: url(images/maze.png);
   background-attachment: fixed;
@@ -12,11 +18,7 @@ nav {
   flex: auto;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  padding: 10px 30px;
 }
 
 .logo {
@@ -26,7 +28,7 @@ nav {
 }
 
 .logo img {
-  height: 60px;
+  height: 30px;
   width: 100%;
 }
 
@@ -34,7 +36,7 @@ ul {
   display: flex;
   list-style: none;
   gap: 50px;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 a {
@@ -48,6 +50,7 @@ a {
   background-attachment: fixed;
   background-size: cover;
   height: 700px;
+  padding-top: 50px; /* Padding for fixing header */
 }
 
 .band-container h1 {
