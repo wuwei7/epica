@@ -12,18 +12,22 @@ nav {
   flex: auto;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .logo {
-  width: 100%;
+  width: auto;
   display: flex;
   justify-content: center;
 }
 
 .logo img {
-  height: 80px;
-  width: 50%;
+  height: 60px;
+  width: 100%;
 }
 
 ul {
